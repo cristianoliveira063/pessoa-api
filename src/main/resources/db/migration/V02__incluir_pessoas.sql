@@ -1,0 +1,10 @@
+INSERT INTO pessoa (nome,email,idade, ativo) values ('João Silva','joão@terra.com.br',23, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('Marcos Almeida','almeida@globo.com.br',30, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('jorge dos Santos','jorgesantos@gmail.com.br',25, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('Carlos Pereira','carlosPereira@gmail.com.br',21, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('Claudio dos Anjos','claudio123@uol.com.br',45, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('Ricardo Mendes','ricardomendes@hotmail.com',19, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('Everton Junior','everton@terra.com.br',28, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('Adriano Augusto','adriano@bol.com.br',27, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('Gilberto Fonseca','gilfonseca@gmail.com.br',35, true);
+INSERT INTO pessoa (nome,email,idade, ativo) values ('Andre melo','andre@globo.com.br',29, true);
