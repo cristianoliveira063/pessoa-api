@@ -67,6 +67,11 @@ public class PessoaResource {
 		return pessoa != null ? ResponseEntity.ok(pessoa) : ResponseEntity.notFound().build();
 	}
 
+	@GetMapping("/relatorio")
+	public List<Pessoa>relatorioPorNome(@RequestParam String nome){
+		return pessoaRepository.relatorioPorNome(nome);
+	}
+
 	@PutMapping("/{codigo}")
 	public ResponseEntity<Pessoa> atualizar(@PathVariable Long codigo, @Valid @RequestBody Pessoa pessoa) {
 		Pessoa pessoaSalva = pessoaService.atualizar(codigo, pessoa);
